@@ -86,9 +86,13 @@ ul.pagination {
 
 .book-brand {
   margin-top: 0;
+  a {
+    display: flex;
+    align-items: flex-end;
+  }
 
   img {
-    height: 3.5em;
+    height: 5.5em;
     width: auto;
     vertical-align: middle;
     margin-inline-end: $padding-8;
